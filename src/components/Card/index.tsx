@@ -54,10 +54,7 @@ export function Card({ product }: CardProps) {
   return (
     <CardContainer>
       <HeaderContainer>
-        <img
-          src={`/src/assets/samples/${product.image}`}
-          alt={`${product.name}`}
-        />
+        <img src={`/${product.image}`} alt={`${product.name}`} />
         <div>
           {product.types.map((type) => {
             return <span key={type}>{type}</span>
