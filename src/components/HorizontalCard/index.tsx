@@ -1,7 +1,7 @@
 import { Minus, Plus, Trash } from 'phosphor-react'
 import { useContext } from 'react'
 import { ShopContext } from '../../contexts/ShopContext'
-import { Item } from '../../reducers/cycles/reducer'
+import { Item } from '../../reducers/cart/reducer'
 import { AmountContainer } from '../Card/styles'
 
 import { ActionsContainer, CardContainer, DeleteItemContainer } from './styles'
