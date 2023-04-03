@@ -31,10 +31,7 @@ export function HorizontalCard({ product, amount }: Item) {
   return (
     <CardContainer>
       <div>
-        <img
-          src={`/src/assets/samples/${product.image}`}
-          alt={`${product.name}`}
-        />
+        <img src={`/${product.image}`} alt={`${product.name}`} />
         <div>
           <span>{product.name}</span>
           <ActionsContainer>
